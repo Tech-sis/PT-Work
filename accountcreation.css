@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+.img{
+    position: absolute;
+}
+nav{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 5px 0;
+    padding: 0 5px 0 5px;
+}
+a{
+    color: white;
+    font-size: 10px;
+    padding: 5px 3px;
+}
+.main{
+    padding: 100px 50px;
+    text-align: center;
+}
+.circle{
+    position: fixed;
+    top: 128px;
+    right: 134px;
+    width: 20%;
+}
+.tick{
+    position: fixed;
+    top: 141px;
+    left: 133px;
+    width: 12%;
+}
+h2{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: #006BFF;
+}
+button{
+    width: 100%;
+    margin: 20px 0 20px;
+    background-color: white;
+    color: #006BFF;
+    border: 3px solid #006BFF;
+    border-radius: 4px;
+    height: 30px;
+}
+button:hover{
+    background-color: #006BFF;
+    color: white;
+}
+
+
+/*Tablet View*/
+@media screen and (min-width:688px) {
+nav{
+    justify-content: flex-end;
+}    
+a{
+    padding: 20px 15px;
+    font-size: 19px;
+}
+h2{
+    margin-top: 200px;
+}
+button{
+    width: 50%;
+    height: 50px;
+}
+.circle{
+    top: 200px;
+    right: 342px;
+    width: 10%;
+}
+.tick{
+    top: 210px;
+    left: 355px;
+    width: 61px;
+}
+}
+
+@media screen and (min-width:992px) {
+    a{
+        font-size: 20px;
+    }
+    .img{
+        padding: 30px;
+    }
+    h2{
+        margin-top: 250px;
+        font-size: 45px;
+    }
+    button{
+        font-size: 25px;
+        height: 70px;
+    }
+    .circle{
+        top: 226px;
+        right: 466px;
+    }
+    .tick{
+        top: 254px;
+        left: 479px;
+        width: 50px;
+    }
+}
+
+
+@media screen and (min-width:1312px) {
+    a{
+font-size: 30px;
+    }
+    .img{
+        padding: 50px 50px;
+        font-size: 30px;
+    }
+    .circle{
+        top: 330px;
+        right: 680px;
+        width: 100px;
+    }
+    .tick{
+        top: 352px;
+        left: 679px;
+        width: 60px;
+    }
+    h2{
+        margin-top: 350px;
+    }
+    button{
+        font-size: 30px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

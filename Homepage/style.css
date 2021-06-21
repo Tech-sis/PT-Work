@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(mobileimg.png) no-repeat right center;
+    height: 393px;
+    color: #006BFF;
+    background-color: #006BFF;
+}
+.head{
+    padding: 40px 66px 0;
+    text-align: center;
+}
+.web-head{
+    display: none;
+}
+h2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.head-p{
+    display: none;
+}
+nav{
+    display: none;
+}
+.search{
+    height: 30px;
+    border-radius: 5px;
+    width: 88%;
+}
+.head-button{
+    width: 10%;
+    height: 20px;
+    background-color: #006BFF;
+    border: 1px solid #006BFF;
+}
+.section-job{
+    background-color: #006BFF;
+    padding: 17px 25px 0;
+    color: white;
+}
+.latest{
+    display: flex;
+    justify-content: flex-end;
+} 
+a{
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+.title{
+    display: flex;
+    justify-content: space-evenly;
+}
+.one{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+.two{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+.three{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+.four{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+.job-p{
+    text-align: right;
+    padding: 10px 0;
+}
+.category{
+    padding: 17px 25px 0;
+}
+.h3{
+color: #006BFF;
+margin-bottom: 20px;
+}
+.categories{
+    display: none;
+}
+.section-works{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 17px 25px 0;
+    background-color: #006BFF;
+    color: white;
+    height: 250px;
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.caption{
+    display: flex;
+    justify-content: space-around;
+}
+.arrow{
+    width: 20px;
+    padding: 40px 5px;
+}
+.h3-works{
+    margin-bottom: 36px;
+}
+.section-options{
+    padding: 17px 25px 0;
+}
+.h3-options{
+    color: #006BFF;
+}
+.slideshow-container{
+    text-align: center;
+}
+.last{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.prev{
+    position: absolute;
+    left: 10px;
+}
+.next{
+    position: absolute;
+    right: 10px;
+}
+.section-faq{
+    padding: 17px 25px 17px;
+    color: #006BFF;
+}
+.h3-faq{
+    margin-bottom: 10px;
+}
+.p-faq{
+    margin-bottom: 10px;
+}
+.p-faq1{
+    margin-bottom: 20px;
+}
+.hr{
+    border: 1px solid #006BFF;
+}
+.img-faq{
+    margin: 0 300px;
+}
+.content-faq{
+    padding: 20px 0;
+}
+.faq-button{
+    background-color: white;
+    color: #006BFF;
+    border-radius: 4px;
+    border: 1px solid #006BFF;
+    width: 70%;
+    margin: 0 15%;
+}
+button{
+    height: 30px;
+}
+.section-app{
+    padding: 17px 25px;
+}
+.app{
+    background-color: #006BFF;
+    padding: 25px 25px;
+}
+.h6-app{
+    margin-bottom: 20px;
+}
+.download{
+    width: 35%;
+    margin-top: 20px;
+}
+.section-join{
+    padding: 17px 25px;
+}
+.join{
+    padding: 10px 0 20px;
+    color: #006BFF;
+}
+.join-button{
+    background-color: white;
+    color: #006BFF;
+    border-radius: 4px;
+    border: 1px solid #006BFF;
+    width: 70%;
+    margin: 18px 15%;
+}
+.hr-join{
+    border: 1px solid #006BFF;
+}
+footer{
+    display: grid;
+    padding: 17px 25px;
+}
+footer a{
+    display: grid;
+    color: black;
+    margin: 5px 0 0;
+}
+.logo{
+    margin-bottom: 15px;
+}
+.container1{
+    padding: 25px 0 10px 0;
+    font-weight: bolder;
+}
+.container2{
+    padding: 5px 0 5px 0;
+}
+.click-arrow{
+    display: none;
+}
+
+/*Laptop View*/
+@media screen and (min-width:992px){
+    header{
+        background: url(imagehome.png) no-repeat center center;
+        background-color: #006BFF;
+        max-width: 100%;
+        height: auto;
+        color: white;
+    }
+    .head{
+        display: none;
+    }
+    .web-head{
+        display: block;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 0;
+    }
+    a{
+        color: #006BFF;
+    }
+    span{
+        color: #FBBC04;
+    }
+    .head-button{
+        background-color: #006BFF;
+        border: 1px solid #006BFF;
+        border-radius: 0 4px 4px 0;
+        height: 50px;
+        color: white;
+    }
+    .nav-button{
+        background-color: #FBBC04;
+        border: 1px solid #FBBC04;
+        border-radius: 4px;
+    }
+    .sign-up{
+        color: black;
+    }
+    h3{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .search{
+        height: 50px;
+        width: 25%;
+        text-indent: 10px;
+        text-indent: 30%;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid white;
+        margin-top: 30px;
+    }
+    .head-p{
+        display: block;
+        color: #006BFF;
+        padding: 25px 0;
+    }
+    .section-job{
+        background: url(Vectorhome.png) no-repeat center center;
+        padding: 20px 30px 0;
+    }
+    .a-latest{
+        color: white;
+    }
+    .latest-button{
+        display: flex;
+        width: 7%;
+        background-color: white;
+        color: #006BFF;
+        border: 1px solid white;
+        border-radius: 4px;
+        align-items: center;
+        text-indent: 15px;
+        
+    }
+    .title{
+        margin-top: 25px;
+    }
+    .br-one{
+        display: none;
+    }
+    .job-p{
+        display: flex;
+        justify-content: flex-end;
+        color: #006BFF;
+    }
+    .click-arrow{
+        display: flex;
+        padding: 0 20px 20px;
+    }
+    .categories{
+        display: flex;
+        padding: 20px 30px;
+    }
+    .group{
+        max-width: 100%;
+        height: 530px;
+    }
+    .names{
+        display: none;
+    }
+    .button-cat{
+        width: 20%;
+        color: white;
+        background-color: #006BFF;
+        border: 1px solid #006BFF;
+        border-radius: 4px;
+        align-self: center;
+        margin: 65px 389px;
+    }
+    .section-works{
+        display: block;
+        padding: 20px 30px;
+        height: 350px;
+    }
+    .img{
+        padding: 0 300px;
+    }
+    .caption{
+        padding: 15px 300px;
+    }
+    .next{
+        right: 45px;
+    }
+    .prev{
+        left: 45px;
+    }
+    .section-faq{
+        padding: 20px 30px;
+    }
+    .h3-faq{
+        margin-bottom: 0;
+    }
+    .content-faq{
+        margin: 25px 85px;
+    }
+    .img-faq{
+        margin: 0 760px;
+    }
+    .faq-button{
+        width: 30%;
+        margin: 0 37%;
+    }
+    button:hover{
+        background-color: #006BFF;
+        color: white;
+    }
+    .download{
+        width: 50%;
+    }
+    .app{
+        padding: 60px 576px 60px 25px;
+    }
+    .section-join{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 50px 0;
+    }
+    .join-grid{
+        display: grid;
+    }
+
+}

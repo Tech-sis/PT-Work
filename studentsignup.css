@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(vector1.png) no-repeat left center;
+    color: white;
+    padding: 90px 20px 85px 20px;
+}
+main{
+padding: 20px 20px;
+}
+
+h6{
+    padding: 5px 20px 15px 20px;
+    color: #006BFF;
+}
+
+.btn:hover{
+    text-decoration: underline;
+    background-color: #006BFF;
+}
+
+.box{
+    display: grid;
+    gap: 15px;
+    padding: 15px 20px 15px 20px;
+}
+
+h5{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid #006bff; 
+    line-height: 0.1em;
+    margin: 20px 0 20px;
+    color: #006BFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h5 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.input-box{
+    display: grid;
+    gap: 15px;
+    padding: 15px 20px 15px 20px;
+}
+
+input {
+    width: 100%;
+    border: 0.5px solid #006BFF;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-indent: 5px;
+    height: 20px;
+}
+
+button{
+    background-color: white;
+    color: #006BFF;
+    border: 2px solid #006BFF;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #006BFF;
+    color: white;
+}
+
+.button{
+    padding: 5px 20px 0 20px;
+}
+
+footer{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.container{
+    margin-bottom: 15px;
+}
+.container1{
+    margin-bottom: 25px;
+}
+a{
+    color: #006BFF;
+}
+footer{
+    color: #006BFF;
+}
+
+/* Tablet View*/
+
+@media screen and (min-width:688px) {
+    header{
+        background: url(vector2.png) no-repeat center center;
+        padding: 160px 0 135px 20px;
+    }
+    main{
+        padding: 50px 80px 0;
+    }
+    .main{
+        padding: 20px 150px;
+    }
+    h6{
+        padding: 0 20px 0 90px;
+    }
+    .input-box{
+        padding: 20px 150px;
+    }
+    input{
+        padding: 15px 15px 15px 15px;
+    }
+    .box{
+        padding: unset;
+    }
+    .button{
+        padding: 0 150px;
+    }
+}
+
+/*Laptop View*/
+@media screen and (min-width: 992px) {
+    main{
+        padding: 80px 150px 0;
+    }
+    .main{
+        padding: 10px 180px;
+    }
+    .input-box{
+        padding: 20px 180px 30px;
+    }
+    .box{
+        padding: 15px 0 15px 0;
+    }
+    .button{
+        padding: 0 178px;
+    }
+}
+
+@media screen and (min-width: 1312px) {
+    header{
+        padding: 140px 20px 131px 20px;
+        background: url(vector2.png) no-repeat left center;
+    }
+    p{
+        padding: 0 0 0 50px;
+    }
+    .main{
+        padding: 10px 350px;
+    }
+    button{
+        height: 50px;
+    }
+    .or{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .input-box{
+        margin-left: 172px;
+        margin-right: 165px;
+    }
+    .button{
+        padding: 0 342px 0 351px;
+    }
+}   
+
