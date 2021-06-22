@@ -296,7 +296,7 @@ footer a{
     nav{
         display: flex;
         justify-content: flex-end;
-        padding: 0;
+        padding: 0 20px;
         line-height: 36px;
         font-size: 15px;
     }
@@ -305,6 +305,10 @@ footer a{
     }
     span{
         color: #FBBC04;
+        font-family: 'Raleway', sans-serif;
+    }
+    .span-br{
+        color: white;
     }
     .head-button{
         background-color: #006BFF;
@@ -313,20 +317,12 @@ footer a{
         height: 50px;
         color: white;
     }
-    .nav-button{
-        background-color: #FBBC04;
-        border: 1px solid #FBBC04;
-        border-radius: 4px;
-        margin-top: 10px;
-    }
-    .sign-up{
-        color: black;
-    }
     .h3-web{
-        font-family: 'Raleway', sans-serif;
-        font-size: 35px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
         font-weight: 900;
-        padding: 80px 0 20px;
+        color: white;
+        padding: 38px 0 20px;
     }
     .search{
         height: 50px;
@@ -335,19 +331,23 @@ footer a{
         text-indent: 30%;
         border-radius: 4px 0 0 4px;
         border: 1px solid white;
-        margin-top: 30px;
+    }
+    .head-p{
+        display: block;
+        margin-top: 15px;
+        font-size: 15px;
     }
     h5{
-        font-size: 25px;
+        font-size: 20px;
     }
     .a-latest{
         color: white;
-        font-size: 18px;
+        font-size: 13px;
         padding: 0 10px;
     }
     .latest-button{
         display: flex;
-        width: 7%;
+        width: 12%;
         background-color: white;
         color: #006BFF;
         border: 1px solid white;
@@ -359,19 +359,19 @@ footer a{
         display: none;
     }
     .title{
-        padding: 15px 100px 0 0;
+        padding: 9px 100px 0 0;
     }
     .one{
-        font-size: 20px;
+        font-size: 18px;
     }
     .two{
-        font-size: 20px;
+        font-size: 18px;
     }
     .three{
-        font-size: 20px;
+        font-size: 18px;
     }
     .four{
-        font-size: 20px;
+        font-size: 18px;
     }
     .categories{
         display: flex;
@@ -506,7 +506,6 @@ footer a{
     nav{
         display: flex;
         justify-content: flex-end;
-        padding: 20px 0;
         line-height: 36px;
     }
     a{
@@ -522,14 +521,6 @@ footer a{
         height: 50px;
         color: white;
     }
-    .nav-button{
-        background-color: #FBBC04;
-        border: 1px solid #FBBC04;
-        border-radius: 4px;
-    }
-    .sign-up{
-        color: black;
-    }
     .h3-web{
         font-family: 'Raleway', sans-serif;
         font-weight: 900;
@@ -542,7 +533,6 @@ footer a{
         text-indent: 30%;
         border-radius: 4px 0 0 4px;
         border: 1px solid white;
-        margin-top: 30px;
     }
     .head-p{
         display: block;
@@ -559,7 +549,7 @@ footer a{
     }
     .latest-button{
         display: flex;
-        width: 7%;
+        width: 9%;
         background-color: white;
         color: #006BFF;
         border: 1px solid white;
@@ -569,8 +559,7 @@ footer a{
         
     }
     .title{
-        margin-top: 25px;
-        padding: 15px 135px 20px 0;
+        padding: 5px 135px 5px 0;
     
     }
     .br-one{
@@ -579,7 +568,7 @@ footer a{
     .job-p{
         display: flex;
         justify-content: flex-end;
-        color: #006BFF;
+        color: white;
     }
     .click-arrow{
         display: flex;
@@ -688,7 +677,7 @@ footer a{
 
 @media screen and (min-width:1312px) {
     header{
-        background-size: 100% 393px;
+        background-size: 100% 100%;
     }
     .user{
         font-size: 25px;

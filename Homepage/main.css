@@ -284,7 +284,7 @@ footer a{
 @media screen and (min-width:688px) {
     header{
         background: url(imagehome.png) no-repeat center center;
-        background-size: 100% 395px;
+        background-size: 100% 100%;
     }
     .head{
         display: none;
@@ -295,10 +295,27 @@ footer a{
     }
     nav{
         display: flex;
-        justify-content: flex-end;
-        padding: 0;
-        line-height: 36px;
+        justify-content: space-evenly;
+        padding: 10px 15px 0 240px;
         font-size: 15px;
+    }
+    nav-img{
+        margin: 0 20px;
+
+    }
+    img.nav-img{
+        width: 5%;
+        border-radius: 50%;
+    }
+    .hr-nav{
+        margin: 7px 30px;
+        border: 1px solid #ffffff;
+    }
+    .user{
+        text-align: left;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 20px 20px;
     }
     a{
         color: #006BFF;
@@ -310,7 +327,7 @@ footer a{
         background-color: #006BFF;
         border: 1px solid #006BFF;
         border-radius: 0 4px 4px 0;
-        height: 50px;
+        height: 40px;
         color: white;
     }
     .nav-button{
@@ -324,12 +341,12 @@ footer a{
     }
     .h3-web{
         font-family: 'Raleway', sans-serif;
-        font-size: 35px;
+        font-size: 20px;
         font-weight: 900;
-        padding: 80px 0 20px;
+        padding: 10px 0 20px;
     }
     .search{
-        height: 50px;
+        height: 40px;
         width: 25%;
         text-indent: 10px;
         text-indent: 30%;
@@ -338,16 +355,15 @@ footer a{
         margin-top: 30px;
     }
     h5{
-        font-size: 25px;
+        font-size: 15px;
     }
     .a-latest{
         color: white;
-        font-size: 18px;
         padding: 0 10px;
     }
     .latest-button{
         display: flex;
-        width: 7%;
+        width: 13%;
         background-color: white;
         color: #006BFF;
         border: 1px solid white;
@@ -359,19 +375,23 @@ footer a{
         display: none;
     }
     .title{
-        padding: 15px 100px 0 0;
+        padding: 5px 100px 0 0;
     }
     .one{
-        font-size: 20px;
+        padding: 10px 0;
+        font-size: 18px;
     }
     .two{
-        font-size: 20px;
+        padding: 10px 0;
+        font-size: 18px;
     }
     .three{
-        font-size: 20px;
+        padding: 10px 0;
+        font-size: 18px;
     }
     .four{
-        font-size: 20px;
+        padding: 10px 0;
+        font-size: 18px;
     }
     .categories{
         display: flex;
@@ -494,7 +514,6 @@ footer a{
         background: url(imagehome.png) no-repeat center center;
         background-color: #006BFF;
         background-size: 100% 393px;
-        color: white;
     }
     .head{
         display: none;
@@ -506,8 +525,16 @@ footer a{
     nav{
         display: flex;
         justify-content: flex-end;
-        padding: 20px 0;
         line-height: 36px;
+    }
+    .nav-img{
+        margin: 0 20px;
+    }
+    img.nav-img{
+        width: 3%;
+    }
+    .user{
+        font-size: 20px;
     }
     a{
         color: #006BFF;
@@ -519,7 +546,6 @@ footer a{
         background-color: #006BFF;
         border: 1px solid #006BFF;
         border-radius: 0 4px 4px 0;
-        height: 50px;
         color: white;
     }
     .nav-button{
@@ -533,10 +559,10 @@ footer a{
     .h3-web{
         font-family: 'Raleway', sans-serif;
         font-weight: 900;
-        padding: 20px 0;
+        font-size: 25px;
+        padding: 0;
     }
     .search{
-        height: 50px;
         width: 25%;
         text-indent: 10px;
         text-indent: 30%;
@@ -553,13 +579,16 @@ footer a{
         background: url(Vectorhome.png) no-repeat center center;
         padding: 20px 30px 0;
     }
+    h5{
+        font-size: 20px;
+    }
     .a-latest{
         color: white;
-        font-size: 18px;
+        font-size: 12px;
     }
     .latest-button{
         display: flex;
-        width: 7%;
+        width: 10%;
         background-color: white;
         color: #006BFF;
         border: 1px solid white;
@@ -569,9 +598,20 @@ footer a{
         
     }
     .title{
-        margin-top: 25px;
-        padding: 15px 135px 20px 0;
-    
+        padding: 15px 135px 0 0;
+        font-size: 15px;   
+    }
+    .one{
+        font-size: 25px;
+    }
+    .two{
+        font-size: 25px;
+    }
+    .three{
+        font-size: 25px;
+    }
+    .four{
+        font-size: 25px;
     }
     .br-one{
         display: none;
@@ -579,7 +619,7 @@ footer a{
     .job-p{
         display: flex;
         justify-content: flex-end;
-        color: #006BFF;
+        color: white;
     }
     .click-arrow{
         display: flex;
@@ -688,7 +728,7 @@ footer a{
 
 @media screen and (min-width:1312px) {
     header{
-        background-size: 100% 393px;
+        background-size: 100% 150%;
     }
     .user{
         font-size: 25px;
